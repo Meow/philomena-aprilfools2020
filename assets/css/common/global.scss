@@ -11,19 +11,19 @@
 // ///// SECTION 1 - MAIN COLORS /////
 // ///////////////////////////////////
 
-$background_color: #ffffff !default;
-$page_background_color: #f8fafc !default;
-$foreground_color: #333333 !default;
+$background_color: white !default;
+$page_background_color: lightgrey !default;
+$foreground_color: grey !default;
 
-$base_color: #62a7d9 !default;
+$base_color: lightcyan !default;
 
-$primary_color: #c1e4f9 !default;
-$success_color: #bde9a3 !default; /* tag added, currently banned, view post history--added */
-$danger_color: #ebc0bb !default; /* tag removed, currently not banned, view post history--deleted */
-$warning_color: #eee9bc !default; /* NSFW streams, image spoilered, things like that */
+$primary_color: blue !default;
+$success_color: green !default; /* tag added, currently banned, view post history--added */
+$danger_color: red !default; /* tag removed, currently not banned, view post history--deleted */
+$warning_color: orange !default; /* NSFW streams, image spoilered, things like that */
 
-$link_color: #419cd9 !default;
-$link_hover_color: #9273d0 !default;
+$link_color: blue !default;
+$link_hover_color: purple !default;
 
 $fave_color: #c4b246 !default;
 $vote_up_color: #67af2b !default;
@@ -54,7 +54,7 @@ $image_overlay_background_color: #000000 !default;
 // ///// SECTION 2 - DERIVED COLORS /////
 // //////////////////////////////////////
 
-$text_light_color: $background_color !default;
+$text_light_color: darkgrey !default;
 
 $meta_color: mix($foreground_color, $background_color, 5%) !default;
 $meta_border_color: mix($foreground_color, $meta_color, 30%) !default;
@@ -157,7 +157,7 @@ $site_notice_link_hover_color: $block_header_hover_color !default;
 
 $border: 1px solid $border_color !default;
 
-$font_family_base: verdana, arial, helvetica, sans-serif !default;
+$font_family_base: Comic Sans MS, Times New Roman, Arial !default;
 $font_family_monospace: "Droid Sans Mono", monospace !default;
 
 $max_px_width_for_limited_desktop_layout: 1150px !default;
@@ -278,4 +278,34 @@ $tag_dropdown_hover_background: darken($meta_color, 4%);
   font-size: 16px;
   text-align: center;
   background: $color;
+}
+
+blink {
+  -webkit-animation: 1s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 1s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect { 
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }

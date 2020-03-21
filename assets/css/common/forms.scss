@@ -98,7 +98,7 @@ span.help-block {
 
 /* hform is used for 30em inline 2-element textinput/button forms */
 .hform .field {
-  display: flex;
+  display: block;
   max-width: 30em;
   width: 100%;
 }

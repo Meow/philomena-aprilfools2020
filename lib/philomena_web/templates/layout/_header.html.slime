@@ -4,10 +4,11 @@ header.header
       #js-burger-toggle.hide-desktop
         a.header__link href="#"
           i.fa.fa-bars
-      a.header__link href="/"
-        i.fa.fw.favicon-home
-        span.fa__text.hide-limited-desktop.hide-mobile
-          ' Derpibooru
+      blink
+        a.header__link href="/"
+          i.fa.fw.favicon-home
+          span.fa__text.hide-limited-desktop.hide-mobile
+            ' Derpibooru
       a.header__link.hide-mobile href="/images/new" title="Upload"
         i.fa.fa-upload
 
