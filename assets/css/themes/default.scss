@@ -6,3 +6,80 @@
  */
 
 @import "common/base";
+
+@mixin idiotism {
+  color: #00000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fa-edit:before {
+  @include idiotism;
+  background-image: url("/images/icons/wordpad.ico");
+}
+
+.fa-eye:before {
+  @include idiotism;
+  background-image: url("/images/icons/intel_graphics_configuration.ico");
+}
+
+.fa-sync:before {
+  @include idiotism;
+  background-image: url("/images/icons/internet1.ico");
+}
+
+.fa-exclamation-triangle:before {
+  @include idiotism;
+  background-image: url("/images/icons/__54.ico");
+}
+
+.fa-share:before {
+  @include idiotism;
+  background-image: url("/images/icons/328.ico");
+}
+
+.fa-star:before {
+  @include idiotism;
+  background-image: url("/images/icons/__17.ico");
+}
+
+.fa-upload:before {
+  @include idiotism;
+  background-image: url("/images/icons/regional_settings.ico");
+}
+
+.fa-arrow-up:before {
+  content: "/\\";
+}
+
+.fa-arrow-down:before {
+  content: "\\/";
+}
+
+.fa-comments:before {
+  @include idiotism;
+  background-image: url("/images/icons/__46.ico");
+}
+
+.fa-eye-slash:before {
+  @include idiotism;
+  background-image: url("/images/icons/__1.ico");
+}
+
+.fa-bell:before {
+  @include idiotism;
+  background-image: url("/images/icons/__19.ico");
+}
+
+.fa-embedded--notification {
+  background: url("/images/icons/__19.ico") center/24px 24px no-repeat !important;
+}
+
+.fa-embedded--message {
+  background: url("/images/icons/107.ico") center/24px 24px no-repeat !important;
+}
+
+.fa-filter:before {
+  @include idiotism;
+  background-image: url("/images/icons/__81.ico");
+}

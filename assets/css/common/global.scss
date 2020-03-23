@@ -54,7 +54,7 @@ $image_overlay_background_color: #000000 !default;
 // ///// SECTION 2 - DERIVED COLORS /////
 // //////////////////////////////////////
 
-$text_light_color: darkgrey !default;
+$text_light_color: grey !default;
 
 $meta_color: mix($foreground_color, $background_color, 5%) !default;
 $meta_border_color: mix($foreground_color, $meta_color, 30%) !default;
@@ -71,28 +71,28 @@ $header_admin_hover_color: mix($vote_down_color, $background_color, 30%) !defaul
 
 $block_header_color: lighten($base_color, 28%) !default;
 $block_header_hover_color: desaturate(lighten($base_color, 20%), 5%) !default;
-$block_header_link_text_color: saturate(darken($header_color, 5%), 6%) !default;
-$block_header_link_text_hover_color: darken($header_color, 15%) !default;
+$block_header_link_text_color: blue !default;
+$block_header_link_text_hover_color: purple !default;
 
 $block_header_light_color: desaturate(lighten($base_color, 31%), 16%) !default;
 $block_header_light_hover_color: lighten($header_secondary_hover_color, 2%) !default;
-$block_header_light_link_text_color: darken($block_header_light_color, 42%) !default;
-$block_header_light_link_text_hover_color: darken($block_header_light_color, 52%) !default;
+$block_header_light_link_text_color: blue !default;
+$block_header_light_link_text_hover_color: purple !default;
 
 $border_color: darken($block_header_light_color, 3%) !default;
 
 $media_box_color: desaturate($block_header_light_color, 10%) !default;
 $media_box_hover_color: saturate(darken($media_box_color, 6%), 6%) !default;
 $media_box_header_link_text_color: $link_color !default;
-$media_box_header_link_text_hover_color: darken($media_box_header_link_text_color, 10%) !default;
+$media_box_header_link_text_hover_color: purple !default;
 
 $primary_light_color: lighten($primary_color, 5%) !default;
 $success_light_color: lighten($success_color, 7%) !default;
 $danger_light_color: lighten($danger_color, 4%) !default;
 $warning_light_color: lighten($warning_color, 6%) !default;
 
-$link_dark_color: darken($link_color, 20%) !default; //used in the tag table, amongst other things
-$link_hover_dark_color: darken($link_hover_color, 20%) !default;
+$link_dark_color: blue !default; //used in the tag table, amongst other things
+$link_hover_dark_color: purple !default;
 
 $image_show_link_color: $link_color;
 $image_show_link_hover_color: $link_hover_color;
@@ -117,7 +117,7 @@ $assistant_border_color: darken($assistant_color, 8%) !default;
 $admin_links_color: mix($vote_down_color, $background_color, 17%) !default;
 $admin_links_hover_color: mix($vote_down_color, $background_color, 48%) !default;
 
-$input_text_color: $foreground_color !default;
+$input_text_color: black !default;
 $input_color: $meta_color !default;
 $input_border: $meta_border_color !default;
 $input_color_active: desaturate(lighten($base_color, 30%), 16%) !default;

@@ -4,12 +4,10 @@ defmodule PhilomenaWeb.SettingView do
   def theme_options(conn) do
     [
       [
-        key: "Default",
+        key: "AWARD WINNING THEME",
         value: "default",
         data: [theme_path: Routes.static_path(conn, "/css/default.css")]
-      ],
-      [key: "Dark", value: "dark", data: [theme_path: Routes.static_path(conn, "/css/dark.css")]],
-      [key: "Red", value: "red", data: [theme_path: Routes.static_path(conn, "/css/red.css")]]
+      ]
     ]
   end
 

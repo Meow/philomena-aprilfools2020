@@ -1,21 +1,26 @@
 .button {
-  background-color: $button_background_color;
-  border: 1px solid $button_border_color;
+  background-color: lightgrey;
+  border: 2px solid grey;
+  border-top: 2px solid lightgrey;
+  border-left: 2px solid lightgrey;
   box-sizing: border-box;
-  color: $button_text_color;
+  color: black;
   display: inline-block;
   line-height: normal;
   font-family: $font_family_base;
   font-size: 14px;
   padding: 3px 5px;
   border-radius: 0; /* reset rounded borders on iOS/Safari */
+
   cursor: pointer;
   &:hover {
-    background-color: $button_hover_background_color;
-    border-color: $button_hover_border_color;
+    background-color: darkgrey;
+    border-color: lightgrey;
+    border-top: 2px solid grey;
+    border-left: 2px solid grey;
   }
   &:active, &:hover, &:visited {
-    color: $button_text_color;
+    color: black;
   }
   &:disabled {
     opacity: 0.7;
