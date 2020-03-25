@@ -13,9 +13,9 @@
 
 $background_color: white !default;
 $page_background_color: lightgrey !default;
-$foreground_color: grey !default;
+$foreground_color: black !default;
 
-$base_color: lightcyan !default;
+$base_color: grey !default;
 
 $primary_color: blue !default;
 $success_color: green !default; /* tag added, currently banned, view post history--added */
@@ -25,43 +25,43 @@ $warning_color: orange !default; /* NSFW streams, image spoilered, things like t
 $link_color: blue !default;
 $link_hover_color: purple !default;
 
-$fave_color: #c4b246 !default;
-$vote_up_color: #67af2b !default;
-$vote_down_color: #cf0001 !default;
-$hide_color: #cf0001 !default;
+$fave_color: gold !default;
+$vote_up_color: lime !default;
+$vote_down_color: red !default;
+$hide_color: red !default;
 
-$destroyed_content_color: #ffdcdc !default;
+$destroyed_content_color: pink !default;
 
-$assistant_color: #eeceed !default;
+$assistant_color: purple !default;
 
-$tag_normal_color: #6f8f0e !default;
-$tag_category_rating_color: #267ead !default;
-$tag_category_spoiler_color: #c24523 !default;
-$tag_category_origin_color: #393f85 !default;
-$tag_category_oc_color: #9852a3 !default;
-$tag_category_error_color: #ad263f !default;
-$tag_category_character_color: #2d8677 !default;
-$tag_category_content_official_color: #998e1a !default;
-$tag_category_content_fanmade_color: #bb5496 !default;
-$tag_category_species_color: #8b552f !default;
+$tag_normal_color: green !default;
+$tag_category_rating_color: cyan !default;
+$tag_category_spoiler_color: darkorange !default;
+$tag_category_origin_color: blue !default;
+$tag_category_oc_color: purple !default;
+$tag_category_error_color: red !default;
+$tag_category_character_color: teal !default;
+$tag_category_content_official_color: yellow !default;
+$tag_category_content_fanmade_color: pink !default;
+$tag_category_species_color: orange !default;
 
-$commission_category_color: #986f3d !default;
+$commission_category_color: orange !default;
 
-$image_overlay_color: #ffffff !default;
-$image_overlay_background_color: #000000 !default;
+$image_overlay_color: white !default;
+$image_overlay_background_color: black !default;
 
 // //////////////////////////////////////
 // ///// SECTION 2 - DERIVED COLORS /////
 // //////////////////////////////////////
 
-$text_light_color: grey !default;
+$text_light_color: black !default;
 
 $meta_color: mix($foreground_color, $background_color, 5%) !default;
 $meta_border_color: mix($foreground_color, $meta_color, 30%) !default;
 
 $header_color: darken($base_color, 9%) !default;
 $header_hover_color: darken($base_color, 16%) !default;
-$header_field_color: $base_color !default;
+$header_field_color: white !default;
 $header_field_hover_color: darken($base_color, 7%) !default;
 $header_secondary_color: desaturate(lighten($base_color, 30%), 25%) !default;
 $header_secondary_hover_color: darken($header_secondary_color, 7%) !default;

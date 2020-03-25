@@ -192,3 +192,8 @@
   @include idiotism;
   background-image: url("/images/icons/__68.ico");
 }
+
+.fa-clipboard:before {
+  @include idiotism;
+  background-image: url("/images/icons/txt_file.ico");
+}
