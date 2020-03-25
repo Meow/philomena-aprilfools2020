@@ -56,6 +56,18 @@
   content: "\\/";
 }
 
+.fa-chevron-up:before {
+  content: "/\\";
+}
+
+.fa-chevron-right:before {
+  content: ">";
+}
+
+.fa-chevron-left:before {
+  content: "<";
+}
+
 .fa-comments:before {
   @include idiotism;
   background-image: url("/images/icons/__46.ico");
@@ -79,7 +91,104 @@
   background: url("/images/icons/107.ico") center/24px 24px no-repeat !important;
 }
 
+.fa-embedded--search {
+  background: url("/images/icons/internet1.ico") center/24px 24px no-repeat !important;
+}
+
+.fa-embedded--camera {
+  background: url("/images/icons/find_fast.ico") center/24px 24px no-repeat !important;
+}
+
+.fa-embedded--help {
+  background: url("/images/icons/__17.ico") center/24px 24px no-repeat !important;
+}
+
 .fa-filter:before {
   @include idiotism;
   background-image: url("/images/icons/__81.ico");
+}
+
+.fa-images:before {
+  @include idiotism;
+  background-image: url("/images/icons/103.ico");
+}
+
+.fa-sitemap:before {
+  @include idiotism;
+  background-image: url("/images/icons/79.ico");
+}
+
+.fa-download:before {
+  @include idiotism;
+  background-image: url("/images/icons/drive_d.ico");
+}
+
+.fa-random:before {
+  @include idiotism;
+  background-image: url("/images/icons/158.ico");
+}
+
+.fa-image:before {
+  @include idiotism;
+  background-image: url("/images/icons/__11.ico");
+}
+
+.fa-pen-square:before {
+  @include idiotism;
+  background-image: url("/images/icons/__102.ico");
+}
+
+.fa-link:before {
+  @include idiotism;
+  background-image: url("/images/icons/78.ico");
+}
+
+.fa-cogs:before {
+  @include idiotism;
+  background-image: url("/images/icons/116.ico");
+}
+
+.fa-cog:before {
+  @include idiotism;
+  background-image: url("/images/icons/116.ico");
+}
+
+.fa-envelope:before {
+  @include idiotism;
+  background-image: url("/images/icons/briefcase.ico");
+}
+
+.fa-user:before {
+  @include idiotism;
+  background-image: url("/images/icons/users.ico");
+}
+
+.fa-sign-out-alt:before {
+  @include idiotism;
+  background-image: url("/images/icons/passwords.ico");
+}
+
+.fa-search:before {
+  @include idiotism;
+  background-image: url("/images/icons/internet1.ico");
+}
+
+.fa-bell-slash:before {
+  @include idiotism;
+  background-image: url("/images/icons/272.ico");
+}
+
+.fa-flag:before {
+  @include idiotism;
+  background-image: url("/images/icons/__54.ico");
+}
+
+.fa-quote-right:before {
+  @include idiotism;
+  background-image: url("/images/icons/__101.ico");
+}
+
+.fa-reply:before {
+  @include idiotism;
+  background-image: url("/images/icons/__68.ico");
 }
