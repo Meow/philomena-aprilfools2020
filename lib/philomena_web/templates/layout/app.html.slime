@@ -2,7 +2,8 @@ doctype html
 html lang="en"
   head
     meta http-equiv="X-UA-Compatible" content="IE=edge"
-    = viewport_meta_tag(@conn)
+    / Where we're going we don't need... viewports
+    / = viewport_meta_tag(@conn)
 
     title
       = if assigns[:title] do

@@ -7,6 +7,14 @@
 
 @import "common/base";
 
+.user_super_mega_admin {
+  text-shadow: 0 0 0.5em red;
+}
+
+.user_super_mega_moderator {
+  text-shadow: 0 0 0.5em gold;
+}
+
 @mixin idiotism {
   color: #00000000;
   background-size: cover;

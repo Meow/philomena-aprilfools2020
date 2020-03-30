@@ -64,7 +64,7 @@ a.header__link {
 
 a.header__link:hover, .header__dropdown:hover > a {
   cursor: pointer;
-  background-color: $header_hover_color;
+  color: blue;
 }
 
 .header__input, .header__input:focus {
@@ -157,7 +157,7 @@ span.header__link-user__dropdown-arrow {
 
 span.header__link-user__dropdown-arrow:hover,
 .header__dropdown:hover span.header__link-user__dropdown-arrow {
-  background-color: $header_hover_color;
+  color: blue;
 }
 
 .header--secondary {
@@ -171,7 +171,7 @@ span.header__link-user__dropdown-arrow:hover,
   }
 
   a:hover, .header__dropdown:hover > a {
-    background-color: $header_secondary_hover_color;
+    color: blue;
   }
 
   div {

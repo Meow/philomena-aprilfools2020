@@ -106,13 +106,13 @@ defmodule PhilomenaWeb.UserAttributionView do
   defp secondary_role(labels, _user), do: labels
 
   defp staff_role(labels, %{hide_default_role: false, role: "admin"}),
-    do: [{"label--danger", "Site Administrator"} | labels]
+    do: [{"label--danger", "Admin"} | labels]
 
   defp staff_role(labels, %{hide_default_role: false, role: "moderator"}),
-    do: [{"label--success", "Site Moderator"} | labels]
+    do: [{"label--success", "Moderator"} | labels]
 
   defp staff_role(labels, %{hide_default_role: false, role: "assistant"}),
-    do: [{"label--purple", "Site Assistant"} | labels]
+    do: [{"label--purple", "Builder"} | labels]
 
   defp staff_role(labels, _user),
     do: labels

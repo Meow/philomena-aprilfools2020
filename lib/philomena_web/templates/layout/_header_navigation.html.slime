@@ -1,23 +1,23 @@
 .hide-mobile
   .dropdown.header__dropdown
     a.header__link href="/images"
-      | Images
+      | POSTS
       span data-click-preventdefault="true"
         i.fa.fa-caret-down<
     .dropdown__content
       a.header__link href="/images/random"
-        | Random
+        | RANDOM
   .dropdown.header__dropdown
     a.header__link href="/activity"
-      | Activity
+      | CHANGES
       span data-click-preventdefault="true"
         i.fa.fa-caret-down<
     .dropdown__content
       a.header__link href="/comments"
-        | Comments
+        | COMMENTS
   .dropdown.header__dropdown
     a.header__link href="/forums"
-      | Forums
+      | FORUM
       span data-click-preventdefault="true"
         i.fa.fa-caret-down<
     .dropdown__content
@@ -29,13 +29,13 @@
         i.fa.fa-fw.fa-search>
         | Post Search
   a.header__link href="/tags"
-    | Tags
+    | TAGS
   a.header__link href="/channels"
-    ' Live
+    ' LIVE
     span.header__counter
       = @conn.assigns.live_channels
 
   a.header__link href="/galleries"
-    | Galleries
+    | POOLS
   a.header__link href="/commissions"
-    | Commissions
+    | ARTISTS
