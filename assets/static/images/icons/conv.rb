@@ -10,8 +10,14 @@ class String
   end
 end
 
-Dir["./*.ico"].each do |file|
+Dir["./*.ico"].sort.each do |file|
   new_name = file.underscore
 
-  File.rename file, new_name
+  if new_name.start_with? './__'
+    n = new_name.gsub(/^\.\/__([0-9]+)\.ico/, '\1').to_i + 347
+    puts "#{new_name} -> #{n}.ico"
+    File.rename file, "./#{n}.ico"
+  else
+    File.rename file, new_name
+  end
 end
