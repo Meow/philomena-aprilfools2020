@@ -1,4 +1,18 @@
 footer#footer
+  #ohgodwhy
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/sin.gif" height="128" width="128"
+    img src="/images/dancing_baby.gif" height="128" width="128"
+    img src="/images/sin.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
+    img src="/images/aaa.gif" height="128" width="128"
   #footer_content
     - footer_data = footer_data()
 

@@ -208,6 +208,7 @@ hr {
 
 .walloftext {
   font-size: 14px;
+  font-family: Comic Sans MS, 'Times New Roman', Arial;
 
   @media (max-width: 900px) {
     width: 95%;
@@ -348,12 +349,12 @@ blockquote {
 }
 
 i.favicon-home {
-  background-image: url("/favicon.svg");
-  background-size: contain;
+  background-image: url("/images/aaa.gif");
+  background-size: 48px 48px;
   background-repeat: no-repeat;
   background-position: center;
-  min-width: 1em;
-  height: 1em;
+  min-width: 2em;
+  height: 1.4em;
   display: inline-block;
 }
 
